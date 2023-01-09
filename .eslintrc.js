@@ -23,6 +23,7 @@ module.exports = {
     'object-curly-newline': 0,
     'no-multiple-empty-lines': 0,
     'object-property-newline': 0,
-    'indent': 0
+    'indent': 0,
+    'camelcase': 0
   }
 }

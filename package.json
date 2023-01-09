@@ -12,8 +12,10 @@
     "core-js": "^3.8.3",
     "element-plus": "^1.0.2-beta.28",
     "element-ui": "^2.4.5",
+    "tree-table-vue": "^1.1.0",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vue-table-with-tree-grid": "^0.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
