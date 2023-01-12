@@ -24,6 +24,7 @@ module.exports = {
     'no-multiple-empty-lines': 0,
     'object-property-newline': 0,
     'indent': 0,
-    'camelcase': 0
+    'camelcase': 0,
+    'space-infix-ops': 0
   }
 }
