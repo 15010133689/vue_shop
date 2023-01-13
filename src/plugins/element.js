@@ -2,7 +2,7 @@ import 'element-plus/lib/theme-chalk/index.css'
 import {
   ElForm, ElButton, ElFormItem, ElInput, ElMessage,ElContainer,ElHeader,ElAside,ElMain,ElMenu,ElSubmenu,ElMenuItem,ElBreadcrumb,
   ElBreadcrumbItem,ElCard,ElRow,ElCol,ElTable,ElTableColumn,ElSwitch,ElTooltip,ElPagination,ElDialog,ElMessageBox, ElTag, ElTree, ElSelect,
-  ElOption,ElCascader,ElAlert,ElTabs,ElTabPane
+  ElOption,ElCascader,ElAlert,ElTabs,ElTabPane,ElSteps,ElStep,ElCheckboxGroup,ElCheckbox,ElUpload
 } from 'element-plus'
 
 export default (app) => {
@@ -38,4 +38,9 @@ export default (app) => {
   app.use(ElAlert)
   app.use(ElTabs)
   app.use(ElTabPane)
+  app.use(ElSteps)
+  app.use(ElStep)
+  app.use(ElCheckboxGroup)
+  app.use(ElCheckbox)
+  app.use(ElUpload)
 }
